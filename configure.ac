@@ -1,5 +1,5 @@
-AC_PREREQ([2.69])
-AC_INIT([futurerestore], m4_esyscmd([git rev-list --count HEAD | tr -d '\n']), [tihmstar@gmail.com])
+AC_PREREQ([1.0])
+AC_INIT([futurerestore], m4_esyscmd([git rev-list --count HEAD | tr -d '\n']), [smartprolda@gmail.com])
 
 AC_CANONICAL_SYSTEM
 AC_CANONICAL_HOST
